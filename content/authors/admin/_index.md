@@ -13,7 +13,8 @@ role: PhD Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Department of Urban Planning and Design, The University of Hong Kong
+  - name: Department of Urban Planning and Design, 
+  The University of Hong Kong
     
 
 # Social network links
