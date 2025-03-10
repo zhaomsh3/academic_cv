@@ -1,0 +1,68 @@
+// Make page header alignment consistent with widget page header alignment
+.universal-wrapper h1 {
+  text-align: center;
+  font-family:"Noto Serif", Georgia, serif;
+  font-size: 16px;
+}
+
+// Center the CTA shortcode button
+.cta-group {
+  justify-content: center;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  padding: 8px 20px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  margin-top: 1rem;
+  background-color: transparent;
+  border: 2px solid #4F3A80;
+  color: #4F3A80;
+  font-size: 16px;
+  border-radius: 8px;
+}
+ 
+.hero-media img {
+  margin-top: 4rem;
+  width: 60%;
+  height: auto;
+}
+
+.wg-hero{
+  background: #f7f7f7;
+}
+
+.wg-markdown{
+  background: #f7f7f7;
+}
+
+.page-header header--fixed{
+  background: #f7f7f7;
+}
+
+.page-footer{
+  background: #f7f7f7;
+}
+
+.page-body{
+  background: #f7f7f7;
+}
+
+.section-heading h1 {
+  text-align: center;
+  margin: 0 0 10px;
+  font-family: Helvetica, Georgia, serif;
+  font-weight: bold;
+  color: #959a72;
+}
+
+.navbar-light .navbar-brand {
+  color: #959a72;
+}
+
+.navbar {
+    background: #f7f7f7;
+}
+
+

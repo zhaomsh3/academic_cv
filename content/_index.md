@@ -1,125 +1,36 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
-date: 2022-10-24
+title:
+date: 2025-02-28
 type: landing
 
-design:
-  # Default section spacing
-  spacing: "6rem"
-
 sections:
-  - block: resume-biography-3
+  - block: hero
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+      title: |
+      image:
+        filename: Mushu.jpg
+      text: |
+        <p style="font-family: Helvetica; font-weight: bold; color: #4F3A80; margin: 0rem 0rem 0rem 2rem ; font-size: 1.4rem; line-height: 1.5">Welcome to my homepage!</p>
+        <p style="font-family: Helvetica, KaiTi; font-size: 1.1rem; margin: 0rem 1rem 0rem 4.5rem ; text-align: justify; ; line-height: 1.5">
+        <br> My name is Mushu Zhao (赵沐舒). I am now a PhD candidate in urban planning and design at the University of Hong Kong.		
+        <br>
+        <br> I received my B.S. in Geographic Information Science at Sun Yat-sen University and M.S. in Applied Geographic Information System at National University of Singapore. My research fields are Environmental Sustainability Associated with Urbanization and Transportation, Transportation Electrification and Green Mobility Solutions, Impacts and Interactions of Extreme Weather Events on Travel Behavior.
+        <br>
+        <br> Find me on <a style="color: #4F3A80" href="https://scholar.google.com/citations?user=tqmqRkwAAAAJ">Google Scholar</a>, <a style="color: #4F3A80" href="https://www.researchgate.net/profile/Mushu-Zhao">ResearchGate</a>, and <a style="color: #4F3A80" href="https://www.linkedin.com/in/mushu-zhao-75692a165/">LinkedIn</a>.
+        <br> Contact me: zhaomsh3@connect.hku.hk.</p>
+        {{< cta class="CV-button" cta_text="Download CV" icon=download cta_link="./cv/CV_ZhaoMushu_250303.pdf">}}
     design:
-      css_class: dark
       background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+      slide_height: "200px" 
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+      title:
+      subtitle: 
+      text: |
+        <p style="font-family: Helvetica, KaiTi; font-weight: bold; color: #4F3A80; margin: -5rem 0rem 1rem 4.5rem ; font-size: 1.4rem;"> Lastest Publications </p>
+        <ul style="font-family: Helvetica; font-size: 1.1rem; margin: 0rem 8rem 0rem 4.5rem ; text-align: justify">
+        <li> Zhao, M., Wang, D., Li, W., & Liu, J. (2024). Unraveling influencing factors of public charging station utilization. <em>Transportation Research Part D: Transport and Environment</em>, 137, 104506.
+        <li> Hu, Y., Zhao, M., & Zhao, Z. (2024). Uncovering heterogeneous effects of linklevel street environment on e-bike and e-scooter usage. <em>Transportation Research Part D: Transport and Environment</em>, 136, 104477.</ul>
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
-    content:
-      title: 👉 Build your own academic website like this
-      text: |-
-        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
-
-        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-        
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
 ---
