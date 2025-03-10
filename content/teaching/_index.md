@@ -18,7 +18,7 @@ sections:
       title: 
       subtitle: 
       text: |
-        <p style="font-family: Helvetica, KaiTi; font-weight: bold; color: #4F3A80; margin: -5rem 0rem 1rem 3rem ; font-size: 1.4rem;"> Selected Student Feedback </p>
+        <p style="font-family: Helvetica, KaiTi; font-weight: bold; color: #4F3A80; margin: -5rem 0rem 0rem 3rem ; font-size: 1.4rem;"> Selected Student Feedback </p>
         <ul style="font-family: Helvetica; font-size: 1.1rem; margin: 0rem 4.5rem 0rem 4.5rem ; text-align: justify">
         <em>"Very eager to help, especially in topics related to gis. She has shown her capability in this field and the ability to solve the problems faced by students."</em>
         <br><em>"very helpful and nice to us, very easygoing which makes it comfortable for us when we want to seek help"</em>
