@@ -15,7 +15,7 @@ sections:
         <p style="font-family: Helvetica, KaiTi; font-size: 1.1rem; margin: 0rem 1rem 0rem 4.5rem ; text-align: justify; ; line-height: 1.5">
         <br> My name is Mushu Zhao (赵沐舒). I am now a PhD candidate in urban planning and design at the University of Hong Kong.		
         <br>
-        <br> I received my B.S. in Geographic Information Science at Sun Yat-sen University and M.S. in Applied Geographic Information System at National University of Singapore. Grounded in climate-responsive urbanism, my research focuses on environmental sustainability associated with urbanization and transportation, green transport solutions and sustainable infrastructure, and the impacts and interactions of extreme weather events on travel behavior.
+        <br> I received my B.S. degree in Geographic Information Science at Sun Yat-sen University and M.S. degree in Applied Geographic Information System at National University of Singapore. Grounded in climate-responsive urbanism, my research focuses on environmental sustainability associated with urbanization and transportation, green transport solutions and sustainable infrastructure, and the impacts and interactions of extreme weather events on travel behavior.
         <br> Find me on <a style="color: #4F3A80" href="https://scholar.google.com/citations?user=tqmqRkwAAAAJ">Google Scholar</a>, <a style="color: #4F3A80" href="https://www.researchgate.net/profile/Mushu-Zhao">ResearchGate</a>, and <a style="color: #4F3A80" href="https://www.linkedin.com/in/mushu-zhao-75692a165/">LinkedIn</a>.
         <br> Contact me: zhaomsh3@connect.hku.hk.</p>
         {{< cta class="CV-button" cta_text="Download CV" icon=download cta_link="./cv/CV_ZhaoMushu.pdf">}}
